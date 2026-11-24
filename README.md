@@ -2,14 +2,8 @@
 
 ## -- a practical, hands-on course for data scientist and analysts
 
-<div style="float: right;">
-
-![](spc4hc_cover.png)
-
-</div>
-
-This course is based on the new book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): Mastering Statistical Process Control
-Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
+This course is based on the recent book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): **Mastering Statistical Process Control
+Charts in Healthcare**, available [online](https://spc4hc.org/book/) or on
 [Amazon](https://amzn.eu/d/00RI5hJu).
 
 ## Course Outline
@@ -36,6 +30,8 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 
 1. Get R and RStudio up and running on your PC.
 
+1. Using base R and data of your own invention, construct a point-and-line plot.
+
 ### Day 2: Constructing SPC charts using base R
 
 **Chapters 5-8**
@@ -52,11 +48,11 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 
 **Home assignments**: 
 
-1. Create at least one run chart and one or more control charts using the `spc()` function with your own data.
+1. With your own data, create at least one run chart and one or more control charts using the `spc()` function.
 
-1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package.
+1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1).
  
-### Day 3: SPC charts using qicharts2 for R
+### Day 3: SPC charts using `qicharts2` for R
 
 **Chapter 10**
 
@@ -75,7 +71,9 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 
 **Home assignment**:
 
-1. With your own data and using `qicharts2`, construct a one-way faceted plot with and without centre line and limits frozen to a baseline period.
+1. With your own data and using `qicharts2`, construct one or more examples of each of The Magnificent Seven SPC charts.
+
+1. Construct a one-way faceted SPC chart.
  
 ### Day 4: Additional SPC charts for specialist purposes
 
@@ -91,7 +89,7 @@ Chapters 12-16
 
 * I prime charts for aggregated data with varying subgroup sizes (and much more).
 
-* Introducing reports and dashboards using Rmarkdown and Shiny.
+* Introducing reproducible and reliable reports and dashboards using Rmarkdown and Shiny.
 
 **Home assignment**:
 
@@ -118,7 +116,7 @@ All days from 13:00 to 16:30 UK time
 * Basic familiarity with R:
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
-  - functions
+  - functions and documentation
   - reading data from csv-files
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
