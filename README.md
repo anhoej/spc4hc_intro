@@ -1,4 +1,4 @@
-# Mastering Statistical Process Control Charts in Healthcare
+# Introduction to Statistical Process Control Charts in Healthcare Using R
 
 -- a practical, hands-on course for data scientist and analysts.
 
@@ -120,3 +120,43 @@ All days from 13:00 to 16:30 UK time
   - reading data from csv-files
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
+
+
+----
+day1
+
+1. Get R (&ge; 4.6.2) and RStudio (&ge; 2026.10.1+239) up and running on your PC (https://youtu.be/orjLGFmx6l4).
+
+1. ... and run this command: `plot(rnorm(24), type = 'o')`
+
+
+day2
+
+1. Download the course gitHub repo 
+
+1. With the ... data, create at least one run chart and one or more control charts using the `spc()` function.
+
+1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1).
+
+
+day3
+
+1. With ... data and using `qicharts2`, construct one or more examples of each of The Magnificent Seven SPC charts.
+
+1. Construct a one-way faceted SPC chart from the ... data.
+
+
+day4
+
+1. Go forth and change the world!
+
+  
+  
+  
+  
+1330 - 1400 (5 min break)
+1400 - 1430 (5 mins break)
+1430 - 1500 
+1500 - 1530 (15 min break)
+1530 - 1600 (5 min break)
+1600 - 1630 (close)
