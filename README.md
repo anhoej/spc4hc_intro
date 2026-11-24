@@ -1,9 +1,9 @@
 # Mastering Statistical Process Control Charts in Healthcare
 
-## -- a practical, hands-on course for data scientist and analysts
+*-- a practical, hands-on course for data scientist and analysts.*
 
 This course is based on the recent book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): **Mastering Statistical Process Control
-Charts in Healthcare**, available [online](https://spc4hc.org/book/) or on
+Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
 [Amazon](https://amzn.eu/d/00RI5hJu).
 
 ## Course Outline
