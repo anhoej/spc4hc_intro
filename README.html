@@ -354,70 +354,117 @@ display: none;
 
 <div id="mastering-statistical-process-control-charts-in-healthcare" class="section level1">
 <h1>Mastering Statistical Process Control Charts in Healthcare</h1>
-<div id="a-practical-hands-on-course-for-data-scientist" class="section level2">
-<h2>– a practical, hands-on course for data scientist</h2>
+<div id="a-practical-hands-on-course-for-data-scientist-and-analysts" class="section level2">
+<h2>– a practical, hands-on course for data scientist and analysts</h2>
 <p>This course is based on our new book: Mastering Statistical Process
 Control Charts in Healthcare, available <a href="https://spc4hc.org/book/">online</a> or on <a href="https://amzn.eu/d/00RI5hJu">Amazon</a>.</p>
 </div>
-<div id="day-1-understanding-variation-using-spc-charts" class="section level2">
-<h2>Day 1: Understanding variation using SPC charts</h2>
-<p>Chapters 1-4</p>
+<div id="course-outline" class="section level2">
+<h2>Course Outline</h2>
+<div id="day-1-understanding-variation-using-spc-charts" class="section level3">
+<h3>Day 1: Understanding variation using SPC charts</h3>
+<p><strong>Chapters 1-4</strong></p>
 <ul>
-<li>Understanding variation [MAM]</li>
-<li>Understanding SPC charts [JA]</li>
-<li>Using SPC charts in healthcare [MAM]</li>
-<li>Home assignment
+<li>Understanding variation.
 <ul>
-<li>tbc</li>
+<li>common cause variation.</li>
+<li>special cause variation.</li>
+</ul></li>
+<li>Understanding SPC charts.
+<ul>
+<li>anatomy and physiology of SPC charts.</li>
+<li>common types of SPC charts – The Magnificent Seven.</li>
+<li>common patterns of change in SPC charts.</li>
+<li>tests for special cause variation.</li>
+</ul></li>
+<li>Using SPC charts in healthcare.
+<ul>
+<li>reconciling the voice of the customer and the voice of the
+process.</li>
+<li>investigating signals of special cause variation using the Pyramid
+Model of Investigation.</li>
 </ul></li>
 </ul>
+<p><strong>Home assignment</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Get R and RStudio up and running on your PC.</li>
+</ol>
 </div>
-<div id="day-2-my-first-spc-chart-using-base-r" class="section level2">
-<h2>Day 2: My first SPC chart using base R</h2>
-<p>Chapters 5-8</p>
+<div id="day-2-constructing-spc-charts-using-base-r" class="section level3">
+<h3>Day 2: Constructing SPC charts using base R</h3>
+<p><strong>Chapters 5-8</strong></p>
 <ul>
-<li>Constructing SPC charts with base R [JA]</li>
-<li>Home assignment:
-<ul>
-<li>tbc</li>
-</ul></li>
+<li>Creating random data for testing.</li>
+<li>Plotting and analysing run charts.</li>
+<li>Adding control limits.</li>
+<li>Reading data from csv files.</li>
+<li>Creating the <code>spc()</code> function to handle the most common
+types of data: measurements, counts, rates, and proportions: I C U P
+😜</li>
 </ul>
+<p><strong>Home assignments</strong>:</p>
+<ol style="list-style-type: decimal">
+<li><p>Create at least one run chart and one or more control charts
+using the <code>spc()</code> function with your own data.</p></li>
+<li><p>Install the <code>qicharts2</code> package.</p></li>
+</ol>
 </div>
-<div id="day-3-spc-charts-using-qicharts2-for-r" class="section level2">
-<h2>Day 3: SPC charts using qicharts2 for R</h2>
-<p>Chapter 10</p>
+<div id="day-3-spc-charts-using-qicharts2-for-r" class="section level3">
+<h3>Day 3: SPC charts using qicharts2 for R</h3>
+<p><strong>Chapter 10</strong></p>
 <ul>
-<li>Constructing the “Magnificent Seven” SPC charts with qicharts2
+<li>Introducing <code>qicharts2</code>.</li>
+<li>Constructing the “Magnificent Seven” SPC charts with
+<code>qicharts2</code>:
 <ul>
-<li>I and MR charts for individual measurements</li>
-<li>Xbar and S charts for subgrouped measurements</li>
-<li>C charts for event counts</li>
-<li>U charts for event rates</li>
-<li>P charts for case proportions</li>
+<li>I and MR charts for individual measurements.</li>
+<li>Xbar and S charts for subgrouped measurements.</li>
+<li>C charts for event counts.</li>
+<li>U charts for event rates.</li>
+<li>P charts for case proportions.</li>
 </ul></li>
-<li>Home assignment:
-<ul>
-<li>tbc</li>
-</ul></li>
+<li>Using the freeze and part arguments to fix the baseline period or
+divide the chart into multiple parts.</li>
+<li>Creating multivariate plots (small multiples).</li>
 </ul>
+<p><strong>Home assignment</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>With your own data and using <code>qicharts2</code>, construct a
+one-way faceted plot with and without centre line and limits frozen to a
+baseline period.</li>
+</ol>
 </div>
-<div id="day-4-additional-spc-charts-for-specialist-purposes" class="section level2">
-<h2>Day 4: Additional SPC charts for specialist purposes</h2>
+<div id="day-4-additional-spc-charts-for-specialist-purposes" class="section level3">
+<h3>Day 4: Additional SPC charts for specialist purposes</h3>
 <p>Chapters 12-16</p>
 <ul>
-<li>SPC charts (funnel plots, prime charts, charts for rare events,
-…)</li>
-<li>Introducing reports and dashboards using Rmarkdown and Shiny</li>
+<li>SPC charts for categorical subgroups (funnel plots).</li>
+<li>SPC charts for rare events:
+<ul>
+<li>G charts for opportunities between cases.</li>
+<li>T charts for time between events.</li>
+</ul></li>
+<li>P and U prime charts for rates and proportions with very large
+subgroups:</li>
+<li>I prime charts for aggregated data with varying subgroup sizes (and
+much more).</li>
+<li>Introducing reports and dashboards using Rmarkdown and Shiny.</li>
 </ul>
+<p><strong>Home assignment</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Go forth and change the world!</li>
+</ol>
+</div>
 </div>
 <div id="course-dates" class="section level2">
 <h2>Course dates</h2>
 <ul>
-<li>Tuesday 06th April 2027 13:00 to 16:30</li>
-<li>Tuesday 13th April 2027 13:00 to 16:30</li>
-<li>Tuesday 20th April 2027 13:00 to 16:30</li>
-<li>Tuesday 27th April 2027 13:00 to 16:30</li>
+<li>Tuesday 06th April 2027</li>
+<li>Tuesday 13th April 2027</li>
+<li>Tuesday 20th April 2027</li>
+<li>Tuesday 27th April 2027</li>
 </ul>
+<p>All days from 13:00 to 16:30 UK time</p>
 </div>
 <div id="requirements" class="section level2">
 <h2>Requirements</h2>
@@ -428,6 +475,7 @@ Control Charts in Healthcare, available <a href="https://spc4hc.org/book/">onlin
 <ul>
 <li>data types (numbers, characters, dates)</li>
 <li>data structures (vectors, lists, data frames)</li>
+<li>functions</li>
 <li>reading data from csv-files</li>
 <li>performing arithmetic operations (+, -, *, /)</li>
 <li>plotting (points, lines, bars, histograms)</li>
