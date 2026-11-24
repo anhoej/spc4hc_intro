@@ -35,9 +35,13 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 **Chapters 5-8**
 
 * Creating random data for testing.
+
 * Plotting and analysing run charts.
+
 * Adding control limits.
+
 * Reading data from csv files.
+
 * Creating the `spc()` function to handle the most common types of data: measurements, counts, rates, and proportions: I C U P &#128540;
 
 **Home assignments**: 
@@ -51,13 +55,16 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 **Chapter 10**
 
 * Introducing `qicharts2`.
+
 * Constructing the "Magnificent Seven" SPC charts with `qicharts2`:
   - I and MR charts for individual measurements.
   - Xbar and S charts for subgrouped measurements.
   - C charts for event counts.
   - U charts for event rates.
   - P charts for case proportions.
+
 * Using the freeze and part arguments to fix the baseline period or divide the chart into multiple parts.
+
 * Creating multivariate plots (small multiples).
 
 **Home assignment**:
@@ -69,11 +76,15 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 Chapters 12-16
 
 * SPC charts for categorical subgroups (funnel plots).
+
 * SPC charts for rare events:
   - G charts for opportunities between cases.
   - T charts for time between events.
+
 * P and U prime charts for rates and proportions with very large subgroups:
+
 * I prime charts for aggregated data with varying subgroup sizes (and much more).
+
 * Introducing reports and dashboards using Rmarkdown and Shiny.
 
 **Home assignment**:
@@ -83,8 +94,11 @@ Chapters 12-16
 ## Course dates
 
 * Tuesday 06th April 2027
+
 * Tuesday 13th April 2027
+
 * Tuesday 20th April 2027
+
 * Tuesday 27th April 2027
 
 All days from 13:00 to 16:30 UK time
@@ -92,7 +106,9 @@ All days from 13:00 to 16:30 UK time
 ## Requirements
 
 * The "White" Book: [Mastering Statistical Process Control Charts in Healthcare](https://spc4hc.org/book/).
+
 * Have [R](https://www.r-project.org/) (&ge; 4.6.2) and [R-studio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239) installed and working.
+
 * Basic familiarity with R
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
