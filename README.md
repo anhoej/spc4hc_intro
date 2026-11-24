@@ -15,11 +15,13 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 * Understanding variation.
   - common cause variation.
   - special cause variation.
+
 * Understanding SPC charts.
   - anatomy and physiology of SPC charts.
   - common types of SPC charts -- The Magnificent Seven.
   - common patterns of change in SPC charts.
   - tests for special cause variation.
+
 * Using SPC charts in healthcare.
   - reconciling the voice of the customer and the voice of the process.
   - investigating signals of special cause variation using the Pyramid Model of Investigation.
@@ -42,7 +44,7 @@ Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 
 1. Create at least one run chart and one or more control charts using the `spc()` function with your own data.
 
-1. Install the `qicharts2` package.
+1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package.
  
 ### Day 3: SPC charts using qicharts2 for R
 
@@ -79,6 +81,7 @@ Chapters 12-16
 1. Go forth and change the world!
 
 ## Course dates
+
 * Tuesday 06th April 2027
 * Tuesday 13th April 2027
 * Tuesday 20th April 2027
@@ -87,8 +90,9 @@ Chapters 12-16
 All days from 13:00 to 16:30 UK time
 
 ## Requirements
-* The White Book: https://spc4hc.org/book/
-* Have R-studio and R installed version numbers...?
+
+* The "White" Book: [Mastering Statistical Process Control Charts in Healthcare](https://spc4hc.org/book/).
+* Have [R](https://www.r-project.org/) (&ge; 4.6.2) and [R-studio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239) installed and working.
 * Basic familiarity with R
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
