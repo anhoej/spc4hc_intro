@@ -2,7 +2,13 @@
 
 ## -- a practical, hands-on course for data scientist and analysts
 
-This course is based on our new book: Mastering Statistical Process Control
+<div style="float: right;">
+
+![](spc4hc_cover.png)
+
+</div>
+
+This course is based on the new book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): Mastering Statistical Process Control
 Charts in Healthcare, available [online](https://spc4hc.org/book/) or on
 [Amazon](https://amzn.eu/d/00RI5hJu).
 
@@ -109,7 +115,7 @@ All days from 13:00 to 16:30 UK time
 
 * Have [R](https://www.r-project.org/) (&ge; 4.6.2) and [R-studio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239) installed and working.
 
-* Basic familiarity with R
+* Basic familiarity with R:
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
   - functions
