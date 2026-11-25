@@ -1,8 +1,10 @@
 # Introduction to Statistical Process Control Charts in Healthcare Using R
 
--- a practical, hands-on course for data scientist and analysts.
+A practical, hands-on course for data scientist and analysts.
 
-This course is based on the recent book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): **Mastering Statistical Process Control
+This course takes you from understanding variation and interpreting SPC charts to constructing charts using R. You will first learn the underlying principles by building charts using base R, then move on to using the `qicharts2` package for practical applications. Finally, we explore more specialised chart types and reproducible reporting.
+
+The course is based on the recent book by [Jacob Anhøj and Mohammed A Mohammed](https://spc4hc.org/about.html): **Mastering Statistical Process Control
 Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
 [Amazon](https://amzn.eu/d/00RI5hJu).
 
@@ -73,7 +75,7 @@ Chapters 12-16
 
 * Introducing reproducible and reliable reports and dashboards using Rmarkdown and Shiny.
 
-## Course dates
+## Course Dates
 
 * Tuesday 06th April 2027
 
@@ -83,21 +85,31 @@ Chapters 12-16
 
 * Tuesday 27th April 2027
 
-All days from 13:00 to 16:30 UK time
+All days from 13:30 to 16:45 UK time
 
-## Requirements
+## Course Prepation
 
-* The "White" Book: [Mastering Statistical Process Control Charts in Healthcare](https://spc4hc.org/book/).
-
-* Have [R](https://www.r-project.org/) (&ge; 4.6.2) and [R-studio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239) installed and working.
-
-* Basic familiarity with R:
+* Essential R knowledge:
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
   - functions and documentation
   - reading data from csv-files
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
+
+
+* Software that must be installed before Day 2:
+  - [R](https://www.r-project.org/) (&ge; 4.6.2)
+  - [R-studio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239)
+
+* Recommended reading (The White Book).
+  - Anhøj & Mohammed (2026) [Mastering Statistical Process Control Charts in Healthcare](https://spc4hc.org/book/).
+  
+* Further resources: 
+  - SPC for Healthcare website: https://spc4hc.org
+  - Course materials including datasets and R code are available at: https://github.com/anhoej/spc4hc_intro
+
+
 
 ## Home Assignments
 
@@ -127,16 +139,18 @@ To prepare for and consolidate your learning, please complete the assignments af
 
 1. Go forth and change the world!
 
-## Course schedule
+## Course Schedule
 
-* 1330 - 1355
-* 1355 - 1400 5 min. break
-* 1400 - 1425
-* 1425 - 1430 5 min. break 
-* 1430 - 1455
-* 1455 - 1515 20 min. break
-* 1515 - 1540
-* 1540 - 1545 5 min. break
-* 1545 - 1610
-* 1610 - 1615 5 min. break
-* 1615 - 1645 Q&A, wrap-up, home assignments, ...
+Times are approximate
+
+* 1330 - 1355 Session 1
+* 1355 - 1400 Break
+* 1400 - 1425 Session 2
+* 1425 - 1430 Break 
+* 1430 - 1455 Session 3
+* 1455 - 1515 Break
+* 1515 - 1540 Session 4
+* 1540 - 1545 Break
+* 1545 - 1610 Session 5
+* 1610 - 1615 Break
+* 1615 - 1645 Recap, Q&A and assignments, ...
