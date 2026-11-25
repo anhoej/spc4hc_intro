@@ -71,32 +71,31 @@ Chapters 12-16
 
 * P and U prime charts for rates and proportions with very large subgroups:
 
-* I prime charts for aggregated data with varying subgroup sizes (and much more).
+* I prime charts for aggregated data with varying subgroup sizes.
 
 * Introducing reproducible and reliable reports and dashboards using Rmarkdown and Shiny.
 
 ## Course Dates
 
-* Tuesday 06th April 2027
+* Tuesday 6 April 2027
 
-* Tuesday 13th April 2027
+* Tuesday 13 April 2027
 
-* Tuesday 20th April 2027
+* Tuesday 20 April 2027
 
-* Tuesday 27th April 2027
+* Tuesday 27 April 2027
 
 All days from 13:30 to 16:45 UK time
 
-## Course Prepation
+## Course Preparation
 
-* Essential R knowledge:
+* Essential R knowledge you should be familiar with:
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
   - functions and documentation
   - reading data from CSV-files
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
-
 
 * Software that must be installed before Day 2:
   - [R](https://www.r-project.org/) (&ge; 4.6.2)
@@ -108,8 +107,6 @@ All days from 13:30 to 16:45 UK time
 * Further resources: 
   - SPC for Healthcare website: https://spc4hc.org
   - Course materials including datasets and R code are available at: https://github.com/anhoej/spc4hc_intro
-
-
 
 ## Home Assignments
 
@@ -125,13 +122,13 @@ To prepare for and consolidate your learning, please complete the assignments af
 
 1. Download the course GitHub repository: https://github.com/anhoej/spc4hc_intro. 
 
-1. With the ... data, create at least one run chart and one or more control charts using the `spc()` function.
+1. With the [...] dataset, create at least one run chart and one or more control charts using the `spc()` function.
 
 1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1) and check that it works with this command: `qicharts2::qic(rnorm(24))`.
 
 ### Day 3
 
-1. With ... data and using `qicharts2`, construct one or more examples of each of The Magnificent Seven SPC charts.
+1. With the [...] dataset and using `qicharts2`, construct one or more examples of each of the Magnificent Seven SPC charts.
 
 1. Construct a one-way faceted SPC chart from the ... data.
 
@@ -139,9 +136,9 @@ To prepare for and consolidate your learning, please complete the assignments af
 
 1. Go forth and change the world!
 
-## Course Schedule
+## Daily programme
 
-All times are approximate
+All times are approximate.
 
 * 13:30 - 13:55 Session 1
 * 13:55 - 14:00 Break
