@@ -57,7 +57,7 @@ Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
 
 * Using the freeze and part arguments to fix the baseline period or divide the chart into multiple parts.
 
-* Creating multivariate plots (small multiples).
+* Creating faceted SPC charts (small multiples).
 
 ### Day 4: Additional SPC charts for specialist purposes
 
@@ -89,17 +89,17 @@ All days from 13:30 to 16:45 UK time
 
 ## Course Preparation
 
-* Essential R knowledge you should be familiar with:
+* Essential R knowledge:
   - data types (numbers, characters, dates)
   - data structures (vectors, lists, data frames)
   - functions and documentation
-  - reading data from CSV-files
+  - reading data from CSV files
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
 
 * Software that must be installed before Day 2:
   - [R](https://www.r-project.org/) (&ge; 4.6.2)
-  - [RStudio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1+239)
+  - [RStudio](https://docs.posit.co/ide/user/download.html) (&ge; 2026.10.1)
 
 * Recommended reading (The White Book).
   - Anhøj & Mohammed (2026) [Mastering Statistical Process Control Charts in Healthcare](https://spc4hc.org/book/).
@@ -114,15 +114,13 @@ To prepare for and consolidate your learning, please complete the assignments af
 
 ### Day 1
 
-1. Get R (&ge; 4.6.2) and RStudio (&ge; 2026.10.1+239) up and running on your PC (https://youtu.be/orjLGFmx6l4),
-
-1. Run this command to check that everything works: `plot(rnorm(24), type = 'o')`
+1. Get R (&ge; 4.6.2) and RStudio (&ge; 2026.10.1) up and running on your PC (see [installation guide](https://youtu.be/orjLGFmx6l4)), and check that everything works by running: `plot(rnorm(24), type = 'o')`
 
 ### Day 2
 
 1. Download the course GitHub repository: https://github.com/anhoej/spc4hc_intro. 
 
-1. With the [...] dataset, create at least one run chart and one or more control charts using the `spc()` function.
+1. With the [...] dataset, create a run chart and one of each I, C, U and P control charts using the `spc()` function.
 
 1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1) and check that it works with this command: `qicharts2::qic(rnorm(24))`.
 
@@ -130,7 +128,7 @@ To prepare for and consolidate your learning, please complete the assignments af
 
 1. With the [...] dataset and using `qicharts2`, construct one or more examples of each of the Magnificent Seven SPC charts.
 
-1. Construct a one-way faceted SPC chart from the ... data.
+1. Construct a one-way faceted SPC chart from the [...] data.
 
 ### Day 4
 

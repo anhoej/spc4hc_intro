@@ -421,7 +421,7 @@ U P 😜</p></li>
 </ul></li>
 <li><p>Using the freeze and part arguments to fix the baseline period or
 divide the chart into multiple parts.</p></li>
-<li><p>Creating multivariate plots (small multiples).</p></li>
+<li><p>Creating faceted SPC charts (small multiples).</p></li>
 </ul>
 </div>
 <div id="day-4-additional-spc-charts-for-specialist-purposes" class="section level3">
@@ -456,12 +456,12 @@ using Rmarkdown and Shiny.</p></li>
 <div id="course-preparation" class="section level2">
 <h2>Course Preparation</h2>
 <ul>
-<li>Essential R knowledge you should be familiar with:
+<li>Essential R knowledge:
 <ul>
 <li>data types (numbers, characters, dates)</li>
 <li>data structures (vectors, lists, data frames)</li>
 <li>functions and documentation</li>
-<li>reading data from CSV-files</li>
+<li>reading data from CSV files</li>
 <li>performing arithmetic operations (+, -, *, /)</li>
 <li>plotting (points, lines, bars, histograms)</li>
 </ul></li>
@@ -469,7 +469,7 @@ using Rmarkdown and Shiny.</p></li>
 <ul>
 <li><a href="https://www.r-project.org/">R</a> (≥ 4.6.2)</li>
 <li><a href="https://docs.posit.co/ide/user/download.html">RStudio</a>
-(≥ 2026.10.1+239)</li>
+(≥ 2026.10.1)</li>
 </ul></li>
 <li>Recommended reading (The White Book).
 <ul>
@@ -490,18 +490,18 @@ assignments after each course day:</p>
 <div id="day-1" class="section level3">
 <h3>Day 1</h3>
 <ol style="list-style-type: decimal">
-<li><p>Get R (≥ 4.6.2) and RStudio (≥ 2026.10.1+239) up and running on
-your PC (<a href="https://youtu.be/orjLGFmx6l4" class="uri">https://youtu.be/orjLGFmx6l4</a>),</p></li>
-<li><p>Run this command to check that everything works:
-<code>plot(rnorm(24), type = &#39;o&#39;)</code></p></li>
+<li>Get R (≥ 4.6.2) and RStudio (≥ 2026.10.1) up and running on your PC
+(see <a href="https://youtu.be/orjLGFmx6l4">installation guide</a>), and
+check that everything works by running:
+<code>plot(rnorm(24), type = &#39;o&#39;)</code></li>
 </ol>
 </div>
 <div id="day-2" class="section level3">
 <h3>Day 2</h3>
 <ol style="list-style-type: decimal">
 <li><p>Download the course GitHub repository: <a href="https://github.com/anhoej/spc4hc_intro" class="uri">https://github.com/anhoej/spc4hc_intro</a>.</p></li>
-<li><p>With the […] dataset, create at least one run chart and one or
-more control charts using the <code>spc()</code> function.</p></li>
+<li><p>With the […] dataset, create a run chart and one of each I, C, U
+and P control charts using the <code>spc()</code> function.</p></li>
 <li><p>Install the <a href="https://anhoej.github.io/qicharts2/"><code>qicharts2</code></a>
 package (≥ 0.8.1) and check that it works with this command:
 <code>qicharts2::qic(rnorm(24))</code>.</p></li>
@@ -513,7 +513,7 @@ package (≥ 0.8.1) and check that it works with this command:
 <li><p>With the […] dataset and using <code>qicharts2</code>, construct
 one or more examples of each of the Magnificent Seven SPC
 charts.</p></li>
-<li><p>Construct a one-way faceted SPC chart from the … data.</p></li>
+<li><p>Construct a one-way faceted SPC chart from the […] data.</p></li>
 </ol>
 </div>
 <div id="day-4" class="section level3">
