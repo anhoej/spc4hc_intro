@@ -352,8 +352,9 @@ display: none;
 </div>
 
 
-<div id="mastering-statistical-process-control-charts-in-healthcare" class="section level1">
-<h1>Mastering Statistical Process Control Charts in Healthcare</h1>
+<div id="introduction-to-statistical-process-control-charts-in-healthcare-using-r" class="section level1">
+<h1>Introduction to Statistical Process Control Charts in Healthcare
+Using R</h1>
 <p>– a practical, hands-on course for data scientist and analysts.</p>
 <p>This course is based on the recent book by <a href="https://spc4hc.org/about.html">Jacob Anhøj and Mohammed A
 Mohammed</a>: <strong>Mastering Statistical Process Control Charts in
@@ -384,12 +385,6 @@ process.</li>
 Model of Investigation.</li>
 </ul></li>
 </ul>
-<p><strong>Home assignment</strong>:</p>
-<ol style="list-style-type: decimal">
-<li><p>Get R and RStudio up and running on your PC.</p></li>
-<li><p>Using base R and data of your own invention, construct a
-point-and-line plot.</p></li>
-</ol>
 </div>
 <div id="day-2-constructing-spc-charts-using-base-r" class="section level3">
 <h3>Day 2: Constructing SPC charts using base R</h3>
@@ -403,13 +398,6 @@ point-and-line plot.</p></li>
 common types of data: measurements, counts, rates, and proportions: I C
 U P 😜</p></li>
 </ul>
-<p><strong>Home assignments</strong>:</p>
-<ol style="list-style-type: decimal">
-<li><p>With your own data, create at least one run chart and one or more
-control charts using the <code>spc()</code> function.</p></li>
-<li><p>Install the <a href="https://anhoej.github.io/qicharts2/"><code>qicharts2</code></a>
-package (≥ 0.8.1).</p></li>
-</ol>
 </div>
 <div id="day-3-spc-charts-using-qicharts2-for-r" class="section level3">
 <h3>Day 3: SPC charts using <code>qicharts2</code> for R</h3>
@@ -429,13 +417,6 @@ package (≥ 0.8.1).</p></li>
 divide the chart into multiple parts.</p></li>
 <li><p>Creating multivariate plots (small multiples).</p></li>
 </ul>
-<p><strong>Home assignment</strong>:</p>
-<ol style="list-style-type: decimal">
-<li><p>With your own data and using <code>qicharts2</code>, construct
-one or more examples of each of The Magnificent Seven SPC
-charts.</p></li>
-<li><p>Construct a one-way faceted SPC chart.</p></li>
-</ol>
 </div>
 <div id="day-4-additional-spc-charts-for-specialist-purposes" class="section level3">
 <h3>Day 4: Additional SPC charts for specialist purposes</h3>
@@ -454,10 +435,6 @@ subgroups:</p></li>
 <li><p>Introducing reproducible and reliable reports and dashboards
 using Rmarkdown and Shiny.</p></li>
 </ul>
-<p><strong>Home assignment</strong>:</p>
-<ol style="list-style-type: decimal">
-<li>Go forth and change the world!</li>
-</ol>
 </div>
 </div>
 <div id="course-dates" class="section level2">
@@ -486,6 +463,61 @@ Statistical Process Control Charts in Healthcare</a>.</p></li>
 <li>performing arithmetic operations (+, -, *, /)</li>
 <li>plotting (points, lines, bars, histograms)</li>
 </ul></li>
+</ul>
+</div>
+<div id="home-assignments" class="section level2">
+<h2>Home Assignments</h2>
+<p>To prepare for and consolidate your learning, please complete the
+assignments after each course day:</p>
+<div id="day-1" class="section level3">
+<h3>Day 1</h3>
+<ol style="list-style-type: decimal">
+<li><p>Get R (≥ 4.6.2) and RStudio (≥ 2026.10.1+239) up and running on
+your PC (<a href="https://youtu.be/orjLGFmx6l4" class="uri">https://youtu.be/orjLGFmx6l4</a>),</p></li>
+<li><p>… and run this command to check that everything works:
+<code>plot(rnorm(24), type = &#39;o&#39;)</code></p></li>
+</ol>
+</div>
+<div id="day-2" class="section level3">
+<h3>Day 2</h3>
+<ol style="list-style-type: decimal">
+<li><p>Download the course gitHub repo</p></li>
+<li><p>With the … data, create at least one run chart and one or more
+control charts using the <code>spc()</code> function.</p></li>
+<li><p>Install the <a href="https://anhoej.github.io/qicharts2/"><code>qicharts2</code></a>
+package (≥ 0.8.1) and check that it works with this command:
+<code>qicharts2::qic(rnorm(24))</code>.</p></li>
+</ol>
+</div>
+<div id="day-3" class="section level3">
+<h3>Day 3</h3>
+<ol style="list-style-type: decimal">
+<li><p>With … data and using <code>qicharts2</code>, construct one or
+more examples of each of The Magnificent Seven SPC charts.</p></li>
+<li><p>Construct a one-way faceted SPC chart from the … data.</p></li>
+</ol>
+</div>
+<div id="day-4" class="section level3">
+<h3>Day 4</h3>
+<ol style="list-style-type: decimal">
+<li>Go forth and change the world!</li>
+</ol>
+</div>
+</div>
+<div id="course-schedule" class="section level2">
+<h2>Course schedule</h2>
+<ul>
+<li>1330 - 1355</li>
+<li>1355 - 1400 5 min. break</li>
+<li>1400 - 1425</li>
+<li>1425 - 1430 5 min. break</li>
+<li>1430 - 1455</li>
+<li>1455 - 1515 20 min. break</li>
+<li>1515 - 1540</li>
+<li>1540 - 1545 5 min. break</li>
+<li>1545 - 1610</li>
+<li>1610 - 1615 5 min. break</li>
+<li>1615 - 1645 Q&amp;A, wrap-up, home assignments, …</li>
 </ul>
 </div>
 </div>

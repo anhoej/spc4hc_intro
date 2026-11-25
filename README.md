@@ -26,12 +26,6 @@ Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
   - reconciling the voice of the customer and the voice of the process.
   - investigating signals of special cause variation using the Pyramid Model of Investigation.
 
-**Home assignment**:
-
-1. Get R and RStudio up and running on your PC.
-
-1. Using base R and data of your own invention, construct a point-and-line plot.
-
 ### Day 2: Constructing SPC charts using base R
 
 **Chapters 5-8**
@@ -46,12 +40,6 @@ Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
 
 * Creating the `spc()` function to handle the most common types of data: measurements, counts, rates, and proportions: I C U P &#128540;
 
-**Home assignments**: 
-
-1. With your own data, create at least one run chart and one or more control charts using the `spc()` function.
-
-1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1).
- 
 ### Day 3: SPC charts using `qicharts2` for R
 
 **Chapter 10**
@@ -69,12 +57,6 @@ Charts in Healthcare**, available [online](https://spc4hc.org/book/) and on
 
 * Creating multivariate plots (small multiples).
 
-**Home assignment**:
-
-1. With your own data and using `qicharts2`, construct one or more examples of each of The Magnificent Seven SPC charts.
-
-1. Construct a one-way faceted SPC chart.
- 
 ### Day 4: Additional SPC charts for specialist purposes
 
 Chapters 12-16
@@ -90,10 +72,6 @@ Chapters 12-16
 * I prime charts for aggregated data with varying subgroup sizes (and much more).
 
 * Introducing reproducible and reliable reports and dashboards using Rmarkdown and Shiny.
-
-**Home assignment**:
-
-1. Go forth and change the world!
 
 ## Course dates
 
@@ -121,42 +99,44 @@ All days from 13:00 to 16:30 UK time
   - performing arithmetic operations (+, -, *, /)
   - plotting (points, lines, bars, histograms)
 
+## Home Assignments
 
-----
-day1
+To prepare for and consolidate your learning, please complete the assignments after each course day:
 
-1. Get R (&ge; 4.6.2) and RStudio (&ge; 2026.10.1+239) up and running on your PC (https://youtu.be/orjLGFmx6l4).
+### Day 1
 
-1. ... and run this command: `plot(rnorm(24), type = 'o')`
+1. Get R (&ge; 4.6.2) and RStudio (&ge; 2026.10.1+239) up and running on your PC (https://youtu.be/orjLGFmx6l4),
 
+1. ... and run this command to check that everything works: `plot(rnorm(24), type = 'o')`
 
-day2
+### Day 2
 
 1. Download the course gitHub repo 
 
 1. With the ... data, create at least one run chart and one or more control charts using the `spc()` function.
 
-1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1).
+1. Install the [`qicharts2`](https://anhoej.github.io/qicharts2/) package (&ge; 0.8.1) and check that it works with this command: `qicharts2::qic(rnorm(24))`.
 
-
-day3
+### Day 3
 
 1. With ... data and using `qicharts2`, construct one or more examples of each of The Magnificent Seven SPC charts.
 
 1. Construct a one-way faceted SPC chart from the ... data.
 
-
-day4
+### Day 4
 
 1. Go forth and change the world!
 
-  
-  
-  
-  
-1330 - 1400 (5 min break)
-1400 - 1430 (5 mins break)
-1430 - 1500 
-1500 - 1530 (15 min break)
-1530 - 1600 (5 min break)
-1600 - 1630 (close)
+## Course schedule
+
+* 1330 - 1355
+* 1355 - 1400 5 min. break
+* 1400 - 1425
+* 1425 - 1430 5 min. break 
+* 1430 - 1455
+* 1455 - 1515 20 min. break
+* 1515 - 1540
+* 1540 - 1545 5 min. break
+* 1545 - 1610
+* 1610 - 1615 5 min. break
+* 1615 - 1645 Q&A, wrap-up, home assignments, ...
